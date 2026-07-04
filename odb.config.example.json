@@ -1,0 +1,16 @@
+{
+  "connections": {
+    "app": {
+      "userEnv": "APP_ORACLE_USER",
+      "passwordEnv": "APP_ORACLE_PASSWORD",
+      "schema": "APP_OWNER",
+      "connectStringEnv": "APP_ORACLE_CONNECT_STRING"
+    },
+    "warehouse": {
+      "userEnv": "WAREHOUSE_ORACLE_USER",
+      "passwordEnv": "WAREHOUSE_ORACLE_PASSWORD",
+      "schemaEnv": "WAREHOUSE_ORACLE_SCHEMA",
+      "connectStringEnv": "WAREHOUSE_ORACLE_CONNECT_STRING"
+    }
+  }
+}

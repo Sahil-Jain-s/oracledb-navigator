@@ -1,0 +1,21 @@
+.env
+odb.config.json
+out/
+tmp/
+dist/
+node_modules/
+.DS_Store
+.vscode/
+
+# Local/private catalogs created while exploring real databases.
+catalog/kb/*.md
+catalog/kb/**/*.md
+catalog/queries/
+catalog/**/*.json
+
+# Local notes and usage transcripts.
+last week.md
+db-cli-usage-report-*.md
+substack-post.md
+docs/navigating-db.md
+skills/use-db-kb/references/
